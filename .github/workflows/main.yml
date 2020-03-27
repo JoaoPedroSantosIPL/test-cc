@@ -33,7 +33,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12
-    - run: |
-      cd testing
-      npm install
-      npm test
+      run: |
+        cd testing
+        npm install
+        npm test
